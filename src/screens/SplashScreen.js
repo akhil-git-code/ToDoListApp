@@ -5,7 +5,7 @@ const SplashScreen = ({navigation}) => {
   useEffect(() => {
     // Simulate loading or setup process
     const timer = setTimeout(() => {
-      navigation.navigate('OnBordingScreens'); // Navigate to Home screen after 3 seconds
+      // navigation.navigate('OnBordingScreens'); // Navigate to Home screen after 3 seconds
     }, 2000);
 
     return () => clearTimeout(timer); // Cleanup timer
